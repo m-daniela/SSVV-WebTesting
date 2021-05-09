@@ -1,6 +1,7 @@
 package org.example.features.search;
 
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
+import net.thucydides.core.annotations.Issue;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.ManagedPages;
 import net.thucydides.core.annotations.Steps;
@@ -30,7 +31,7 @@ public class Filter {
     @Steps
     public EndUserSteps endUser;
 
-//    @Issue("#WIKI-1")
+    @Issue("#WIKI-1")
     @Test
     public void searchWikiByKeywordTestDDT() {
         endUser.is_the_home_page();

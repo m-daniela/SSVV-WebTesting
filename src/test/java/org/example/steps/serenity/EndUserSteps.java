@@ -1,6 +1,5 @@
 package org.example.steps.serenity;
 
-import org.example.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.example.pages.Flanco;
@@ -33,12 +32,17 @@ public class EndUserSteps {
 
     @Step
     public void shouldSeeProduct(String definition) {
-        assertThat(flancoFilter.getProducts(), hasItem(containsString(definition)));
+        assertThat(flancoFilter.getProducts(), containsString(definition));
     }
 
     @Step
     public void is_the_home_page() {
         dictionaryPage.open();
+    }
+
+    @Step
+    public void openFilterPage() {
+        flancoFilter.open();
     }
 
     @Step

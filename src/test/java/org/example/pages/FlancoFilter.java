@@ -22,12 +22,9 @@ public class FlancoFilter extends PageObject {
         filterButton.click();
     }
 
-    public List<String> getProducts() {
-        WebElementFacade products = find(By.className("produs"));
-        return products.findElements(By.className("produs-title")).stream()
-                .map( element -> element.findElement(By.tagName("a"))
-                        .getAttribute("title") )
-                .collect(Collectors.toList());
+    public String getProducts() {
+        WebElementFacade products = find(By.xpath("//*[@id=\"product-title\"]"));
+        return products.getText();
     }
 
 }

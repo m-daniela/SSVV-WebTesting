@@ -1,0 +1,6 @@
+org\example\features\search\SearchByProductIdk.class
+org\example\steps\serenity\EndUserSteps.class
+org\example\pages\FlancoFilter.class
+org\example\pages\Flanco.class
+org\example\features\search\package-info.class
+org\example\features\search\Filter.class

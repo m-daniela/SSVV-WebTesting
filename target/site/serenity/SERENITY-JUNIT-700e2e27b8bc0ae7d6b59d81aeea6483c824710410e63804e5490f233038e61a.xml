@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.example.features.search.Filter" skipped="0" tests="1" time="11.15" timestamp="2021-05-09 03:42:10"><testcase classname="org.example.features.search.Filter" name="Search wiki by keyword test DDT"><failure message="&#10;Expected: a collection containing a string containing &quot;Husa tableta cu tastatura Hama U8182500&quot;&#10;     but: was &quot;Tastatura Hama Molina, Negru&quot;" type="java.lang.AssertionError">
-Expected: a collection containing a string containing "Husa tableta cu tastatura Hama U8182500"
-     but: was "Tastatura Hama Molina, Negru"</failure><system-err>
-Expected: a collection containing a string containing "Husa tableta cu tastatura Hama U8182500"
-     but: was "Tastatura Hama Molina, Negru"&#13;
-org.example.steps.serenity.EndUserSteps.shouldSeeProduct(EndUserSteps.java:36)&#13;
-org.example.features.search.Filter.searchWikiByKeywordTestDDT(Filter.java:38)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.example.features.search.Filter" skipped="0" tests="2" time="22.63" timestamp="2021-05-09 04:12:02"><testcase classname="org.example.features.search.Filter" name="Search wiki by keyword test DDT"><failure message="&#10;Expected: a string containing &quot;abcd&quot;&#10;     but: was &quot;Husa tableta cu tastatura Hama U8182500, Negru&quot;" type="java.lang.AssertionError">
+Expected: a string containing "abcd"
+     but: was "Husa tableta cu tastatura Hama U8182500, Negru"</failure><system-err>
+Expected: a string containing "abcd"
+     but: was "Husa tableta cu tastatura Hama U8182500, Negru"&#13;
+org.example.steps.serenity.EndUserSteps.shouldSeeProduct(EndUserSteps.java:35)&#13;
+org.example.features.search.Filter.searchWikiByKeywordTestDDT(Filter.java:39)&#13;
 </system-err></testcase></testsuite>
