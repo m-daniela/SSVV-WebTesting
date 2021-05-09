@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.example.features.search.SearchByProductIdk" skipped="0" tests="2" time="24.83" timestamp="2021-05-09 03:26:45"><testcase classname="org.example.features.search.SearchByProductIdk" name="Search wiki by keyword test DDT"><failure message="&#10;Expected: a collection containing a string containing &quot;bricolaj&quot;&#10;     but: was &quot;Tastatura Hama Molina, Negru&quot;" type="java.lang.AssertionError">
+Expected: a collection containing a string containing "bricolaj"
+     but: was "Tastatura Hama Molina, Negru"</failure><system-err>
+Expected: a collection containing a string containing "bricolaj"
+     but: was "Tastatura Hama Molina, Negru"&#13;
+org.example.steps.serenity.EndUserSteps.should_see_definition(EndUserSteps.java:28)&#13;
+org.example.features.search.SearchByProductIdk.searchWikiByKeywordTestDDT(SearchByProductIdk.java:38)&#13;
+</system-err></testcase></testsuite>
