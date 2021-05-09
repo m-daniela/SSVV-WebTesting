@@ -29,3 +29,4 @@ gradle
 node_modules
 
 pom.xml
+serenity.properties
