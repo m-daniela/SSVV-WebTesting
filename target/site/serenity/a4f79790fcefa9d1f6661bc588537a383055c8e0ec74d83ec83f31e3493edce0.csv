@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword story","Searching by keyword dog should display the corresponding article","SUCCESS","2021-04-20T15:05:00.3608907+03:00[Europe/Bucharest]","0.0","10.55"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2021-04-20T15:05:11.9189572+03:00[Europe/Bucharest]","0.0","3.91"
+"Search by keyword story","Searching by keyword bat should display the corresponding article","SUCCESS","2021-04-20T15:05:16.146365+03:00[Europe/Bucharest]","0.0","4.97"
+"Search by keyword story","Searching by ambiguious keyword should display the disambiguation page","PENDING","2021-04-20T15:05:21.3081828+03:00[Europe/Bucharest]","0.0","0.65"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2021-04-20T15:05:22.218197+03:00[Europe/Bucharest]","0.0","5.26"
