@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>2.0.81</serenity.version>
-        <webtriver.driver>firefox</webtriver.driver>
+        <webtriver.driver>chrome</webtriver.driver>
     </properties>
 
     <repositories>
